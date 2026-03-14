@@ -5,7 +5,7 @@ Note that hostnames used for internal listeners are like "kafka-1", etc. When ex
 /opt/kafka/bin/kafka-topics.sh --bootstrap-server kafka-1:9092 --list
 
 In "application.yaml" of the Spring application, configuration reads
-'''
+```yaml
 spring:
   kafka:
     bootstrap-servers:
